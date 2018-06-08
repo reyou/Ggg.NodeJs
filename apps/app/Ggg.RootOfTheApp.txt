@@ -1,0 +1,2 @@
+This is the root of the application.
+If you are using any IDE, use this folder as application base.

@@ -1,0 +1,27 @@
+{
+  "name": "gggjsmochafirst",
+  "version": "1.0.0",
+  "description": "Ggg JavaScript Mocha First",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chakram": "^1.5.0",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.6",
+    "chai": "^4.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "ggg",
+    "js",
+    "javascript",
+    "mocha"
+  ],
+  "author": "aozdemir",
+  "license": "ISC"
+}
