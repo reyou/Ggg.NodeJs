@@ -1,0 +1,17 @@
+{
+  "name": "@reyou/tiny",
+  "version": "2.1.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tiny",
+    "npm",
+    "package",
+    "bamblehorse"
+  ],
+  "author": "reyou",
+  "license": "ISC"
+}
