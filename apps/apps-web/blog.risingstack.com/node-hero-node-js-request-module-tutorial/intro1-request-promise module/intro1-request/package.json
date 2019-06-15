@@ -1,0 +1,16 @@
+{
+  "name": "intro1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "intro1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}

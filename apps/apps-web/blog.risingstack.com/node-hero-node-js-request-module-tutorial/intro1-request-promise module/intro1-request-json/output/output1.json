@@ -1,0 +1,62 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "ms",
+                "first": "vanessa",
+                "last": "warren"
+            },
+            "location": {
+                "street": "1193 kingsway",
+                "city": "york",
+                "state": "south glamorgan",
+                "postcode": "XS9 8PF",
+                "coordinates": {
+                    "latitude": "6.8607",
+                    "longitude": "150.5157"
+                },
+                "timezone": {
+                    "offset": "+3:00",
+                    "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+                }
+            },
+            "email": "vanessa.warren@example.com",
+            "login": {
+                "uuid": "fef815fc-16e8-4a33-bbf6-c02750efcf8c",
+                "username": "happyrabbit143",
+                "password": "wonderboy",
+                "salt": "A4FPon0U",
+                "md5": "6bdc533cad040a8974fefb17825962dc",
+                "sha1": "225d55a8a805528ef0a973870b87cba75db23bc4",
+                "sha256": "83ad9f42b3c67699bd94a5f9df57468d2cca86dfc95c7c56aa3dbb3efd1e40af"
+            },
+            "dob": {
+                "date": "1951-12-19T23:46:07Z",
+                "age": 67
+            },
+            "registered": {
+                "date": "2009-09-12T05:03:26Z",
+                "age": 9
+            },
+            "phone": "013873 87209",
+            "cell": "0717-899-147",
+            "id": {
+                "name": "NINO",
+                "value": "BB 11 93 80 G"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/33.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/33.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/33.jpg"
+            },
+            "nat": "GB"
+        }
+    ],
+    "info": {
+        "seed": "326e5c87903476ac",
+        "results": 1,
+        "page": 1,
+        "version": "1.2"
+    }
+}
