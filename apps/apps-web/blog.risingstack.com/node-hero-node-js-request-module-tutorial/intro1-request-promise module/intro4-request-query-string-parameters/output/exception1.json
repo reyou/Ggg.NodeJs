@@ -1,0 +1,64 @@
+{
+    "name": "StatusCodeError",
+    "statusCode": 404,
+    "message": "404 - {\"statusCode\":404,\"error\":\"Not Found\"}",
+    "error": {
+        "statusCode": 404,
+        "error": "Not Found"
+    },
+    "options": {
+        "method": "POST",
+        "uri": "https://risingstack.com/login",
+        "body": {
+            "foo": "bar"
+        },
+        "json": true,
+        "simple": true,
+        "resolveWithFullResponse": false,
+        "transform2xxOnly": false
+    },
+    "response": {
+        "statusCode": 404,
+        "body": {
+            "statusCode": 404,
+            "error": "Not Found"
+        },
+        "headers": {
+            "date": "Sat, 15 Jun 2019 14:50:33 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "close",
+            "set-cookie": [
+                "__cfduid=d1342e71017901746dabbf381339449271560610233; expires=Sun, 14-Jun-20 14:50:33 GMT; path=/; domain=.risingstack.com; HttpOnly; Secure"
+            ],
+            "cache-control": "no-cache",
+            "vary": "accept-encoding",
+            "via": "1.1 vegur",
+            "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "server": "cloudflare",
+            "cf-ray": "4e755b6609da91ec-EWR"
+        },
+        "request": {
+            "uri": {
+                "protocol": "https:",
+                "slashes": true,
+                "auth": null,
+                "host": "risingstack.com",
+                "port": 443,
+                "hostname": "risingstack.com",
+                "hash": null,
+                "search": null,
+                "query": null,
+                "pathname": "/login",
+                "path": "/login",
+                "href": "https://risingstack.com/login"
+            },
+            "method": "POST",
+            "headers": {
+                "accept": "application/json",
+                "content-type": "application/json",
+                "content-length": 13
+            }
+        }
+    }
+}
