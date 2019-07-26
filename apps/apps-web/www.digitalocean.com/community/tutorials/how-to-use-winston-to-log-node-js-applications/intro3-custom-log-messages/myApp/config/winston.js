@@ -1,3 +1,4 @@
+// https://github.com/winstonjs/winston/blob/master/docs/transports.md
 var appRoot = require("app-root-path");
 var winston = require("winston");
 
