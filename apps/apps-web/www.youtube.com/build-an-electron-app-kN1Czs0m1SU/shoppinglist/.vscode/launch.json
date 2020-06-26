@@ -1,0 +1,24 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Electron: Main",
+      "type": "node",
+      "protocol": "inspector",
+      "console": "integratedTerminal",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.js",
+
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "sourceMaps": true,
+      "outFiles": ["${workspaceFolder}/**/*.*"],
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+      "timeout": 30000
+    }
+  ]
+}
